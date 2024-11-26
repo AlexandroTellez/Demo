@@ -38,16 +38,17 @@ cd Demo
 
 1. Create a database named *student*.
 2. Update the credentials in the *application.properties file*:
-    ```
-    spring.datasource.url=jdbc:postgresql://localhost:5432/student
-    spring.datasource.username=alext
-    spring.datasource.password=**********
-    spring.jpa.hibernate.ddl-auto=create-drop
-    spring.jpa.show-sql=true
-    spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
-    spring.jpa.properties.hibernate.format_sql=true
 
-    ```
+```
+spring.datasource.url=jdbc:postgresql://localhost:5432/student
+spring.datasource.username=alext
+spring.datasource.password=**********
+spring.jpa.hibernate.ddl-auto=create-drop
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.properties.hibernate.format_sql=true
+
+```
 ### 3. Run the project ▶️
 
 1. Open the project in VS Code or your preferred IDE.
@@ -59,15 +60,26 @@ mvn spring-boot:run
 ```
 src/
 ├── main/
-│   ├── java/com/demo/
-│   │   ├── controller/      # REST controllers
-│   │   ├── entity/          # Entity classes
-│   │   ├── repository/      # JPA repository interfaces
-│   │   └── service/         # Business logic
+│   ├── java/com/example/demo/
+│   │   ├── entity/
+│   │   │   └── Student.java             # Entity class mapping the Student table in the database
+│   │   ├── config/
+│   │   │   └── StudentConfig.java       # Configuration class for initializing data or defining beans
+│   │   ├── controller/
+│   │   │   └── StudentController.java   # REST controller handling API endpoints for Student operations
+│   │   ├── repository/
+│   │   │   └── StudentRepository.java   # JPA repository for CRUD operations on Student entities
+│   │   ├── service/
+│   │   │   └── StudentService.java      # Service class encapsulating business logic for Student management
+│   │
+│   ├── DemoApplication.java             # Main class to bootstrap and run the Spring Boot application
 │   └── resources/
-│       ├── application.properties  # Database configuration
+│       ├── application.properties       # Configuration file for database connection and other settings
 └── test/
-    └── java/                # Unit tests
+    ├── java/com/example/demo/
+    │   └── DemoApplicationTest.java     # Unit tests for validating application functionality
+
+
 ```
 ### 5. Contributions 🙌
 

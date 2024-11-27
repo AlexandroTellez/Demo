@@ -34,6 +34,7 @@
 git clone https://github.com/AlexandroTellez/Demo.git
 cd Demo
 ```
+
 ### 2. Configure the Database 🗄️
 
 * Ensure PostgreSQL is installed and running. Then, configure the database as follows:
@@ -58,6 +59,7 @@ spring.jpa.properties.hibernate.format_sql=true
 ```
 mvn spring-boot:run
 ```
+
 ### 4. Project Structure 🗂️
 
 ```
@@ -88,9 +90,11 @@ src/
 * Contributions are welcome! If you have ideas or improvements for this project, feel free to open an issue or submit a pull request.
 
 ---
+
 ### 6. Contact me 📧
 
 * **Author**: Alexandro Tellez
 * **Email**: alextellezyanes@gmail.com
 * **LinkedIn**: [Alexandro Tellez](https://www.linkedin.com/in/alex-tellez-y/)
+
 ---

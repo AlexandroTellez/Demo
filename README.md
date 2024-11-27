@@ -47,8 +47,8 @@ spring.jpa.hibernate.ddl-auto=create-drop
 spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
 spring.jpa.properties.hibernate.format_sql=true
-
 ```
+
 ### 3. Run the project ▶️
 
 1. Open the project in VS Code or your preferred IDE.
@@ -57,6 +57,7 @@ spring.jpa.properties.hibernate.format_sql=true
 mvn spring-boot:run
 ```
 ### 4. Project Structure 🗂️
+
 ```
 src/
 ├── main/
@@ -78,9 +79,8 @@ src/
 └── test/
     ├── java/com/example/demo/
     │   └── DemoApplicationTest.java     # Unit tests for validating application functionality
-
-
 ```
+
 ### 5. Contributions 🙌
 
 * Contributions are welcome! If you have ideas or improvements for this project, feel free to open an issue or submit a pull request.
@@ -88,7 +88,7 @@ src/
 ---
 ### 6. Contact me 📧
 
-* Author: Alexandro Tellez
-* Email: alextellezyanes@gmail.com
-* LinkedIn: [Alexandro Tellez](https://www.linkedin.com/in/alex-tellez-y/)
+* **Author**: Alexandro Tellez
+* **Email**: alextellezyanes@gmail.com
+* **LinkedIn**: [Alexandro Tellez](https://www.linkedin.com/in/alex-tellez-y/)
 ---

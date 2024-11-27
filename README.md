@@ -30,7 +30,7 @@
 
 * Run the following commands to clone the repository and navigate to the project directory:
 
-```bash
+```
 git clone https://github.com/AlexandroTellez/Demo.git
 cd Demo
 ```

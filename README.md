@@ -31,8 +31,8 @@
 * Run the following commands to clone the repository and navigate to the project directory:
 
 ```
-git clone https://github.com/AlexandroTellez/Demo.git
-cd Demo
+git clone https://github.com/AlexandroTellez/Student-Management-API.git
+cd Student-Management-API
 ```
 
 ### 2. Configure the Database 🗄️

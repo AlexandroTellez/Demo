@@ -1,4 +1,4 @@
-# 🌟 Demo
+# 🌟 Student Management API
 
 **Demo** is a foundational project designed to practice and showcase backend development skills using **Spring Boot** and creating a **student database**. It serves as a starting point to explore essential concepts such as entity management, REST controllers, and database connectivity.
 
